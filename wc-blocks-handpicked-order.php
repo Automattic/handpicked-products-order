@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:     WC Blocks Handpicked Order
- * Plugin URI:      PLUGIN SITE HERE
+ * Plugin Name:     Handpicked Products Block Custom Order
+ * Plugin URI:      https://github.com/Automattic/handpicked-products-order
  * Description:     Allows manual sorting via drag-and-drop of the Handpicked block in WooCommerce Gutenberg Blocks.
  * Author:          Tom Rhodes / WP Special Projects
  * Author URI:      https://wpspecialprojects.wordpress.com
