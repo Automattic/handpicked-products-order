@@ -1,0 +1,59 @@
+.wp-block-woocommerce-handpicked-products {
+	.components-disabled {
+		pointer-events: auto;
+
+		&::after {
+			display: none;
+		}
+
+		* {
+			pointer-events: auto;
+		}
+
+		.wc-block-grid__products {
+			li {
+				pointer-events: none;
+
+				> a,
+				> div {
+					display: block;
+					pointer-events: none;
+
+					* {
+						pointer-events: none;
+					}
+				}
+			}
+		}
+	}
+
+	.is-sorting & .components-disabled .wc-block-grid__products li {
+		cursor: move;
+		user-select: none;
+		position: relative;
+		pointer-events: auto;
+
+		&:active,
+		&:hover {
+			&::after {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				border: 1px solid #2271b1;
+				pointer-events: none;
+				z-index: 9;
+			}
+		}
+
+		&:active {
+			opacity: 0.5;
+
+			&::after {
+
+			}
+		}
+	}
+}
