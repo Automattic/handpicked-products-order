@@ -18,6 +18,8 @@ I started work on this PoC to fill a project requirement which was ultimately no
 - Click the `Save Changes` (checkmark) button in the block toolbar.
 - The products in this block will now persist in your chosen order.
 
+https://user-images.githubusercontent.com/3149464/182180803-7d1421c5-84fe-4db5-a44c-a1a1f50347cf.mov
+
 ### I don't like it / turn this off!
 
 No problem, just deactivate this plugin, your Handpicked Products blocks will revert to their standard ordering behaviour.
